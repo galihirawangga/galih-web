@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perawatan Burung Pleci</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Perawatan Burung Pleci</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Pengenalan</a></li>
+                <li><a href="#feeding">Pakan</a></li>
+                <li><a href="#cleaning">Kebersihan</a></li>
+                <li><a href="#tips">Tips Perawatan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="introduction" class="section">
+            <h2>Pengenalan Burung Pleci</h2>
+            <p>Burung Pleci (Goniorhynchus goniorhynchus) adalah salah satu jenis burung kecil yang populer di Indonesia karena suaranya yang merdu dan penampilannya yang menarik. Burung ini biasanya memiliki ukuran tubuh kecil dengan warna-warna cerah seperti hijau dan kuning.</p>
+            <img src="burungpleci.jpg" alt="Burung Pleci">
+        </section>
+
+        <section id="feeding" class="section">
+            <h2>Pakan Burung Pleci</h2>
+            <p>Untuk menjaga kesehatan burung Pleci, pemberian pakan yang tepat sangat penting. Beberapa jenis pakan yang direkomendasikan meliputi:</p>
+            <ul>
+                <li><strong>Buah-buahan:</strong> Pisang, apel, dan pepaya adalah pilihan yang baik.</li>
+                <li><strong>Serangga:</strong> Jangkrik dan ulat hongkong dapat memberikan protein yang diperlukan.</li>
+                <li><strong>Pakan khusus:</strong> Pakan burung Pleci yang tersedia di toko hewan peliharaan juga dapat diberikan.</li>
+            </ul>
+            <p>Selalu pastikan pakan segar dan bebas dari kontaminasi.</p>
+        </section>
+
+        <section id="cleaning" class="section">
+            <h2>Kebersihan Kandang</h2>
+            <p>Kebersihan kandang adalah faktor penting dalam merawat burung Pleci. Beberapa langkah yang perlu diikuti adalah:</p>
+            <ul>
+                <li><strong>Membersihkan kandang:</strong> Bersihkan kandang secara rutin, setidaknya seminggu sekali, untuk menghindari penumpukan kotoran.</li>
+                <li><strong>Menjaga kebersihan peralatan:</strong> Cuci mangkuk pakan dan minum dengan sabun dan air bersih.</li>
+                <li><strong>Periksa kesehatan:</strong> Selalu periksa burung untuk memastikan tidak ada tanda-tanda penyakit atau infeksi.</li>
+            </ul>
+        </section>
+
+        <section id="tips" class="section">
+            <h2>Tips Perawatan Burung Pleci</h2>
+            <p>Berikut adalah beberapa tips tambahan untuk menjaga burung Pleci tetap sehat dan bahagia:</p>
+            <ul>
+                <li><strong>Tempatkan di lokasi yang nyaman:</strong> Pastikan kandang berada di tempat yang tenang dan tidak terkena sinar matahari langsung.</li>
+                <li><strong>Berikan waktu bermain:</strong> Berikan mainan atau rangsangan mental untuk menghindari kebosanan.</li>
+                <li><strong>Perhatikan pola makan:</strong> Jangan memberi makanan berlebihan; ikuti panduan pakan yang sesuai.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Perawatan Burung Pleci. Semua hak dilindungi.</p>
+    </footer>
+    <section id="contact" class="section form-container">
+        <h2>Kontak Kami</h2>
+        <p>Jika Anda memiliki pertanyaan atau komentar, silakan isi formulir di bawah ini:</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="comment">Komentar:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+    
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+    
+</body>
+</html>
